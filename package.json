@@ -1,0 +1,14 @@
+{
+  "name": "dummyjson-api-cypress-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API checks for DummyJSON using JavaScript and Cypress",
+  "scripts": {
+    "test": "cypress run --spec cypress/e2e/dummyjson-api.cy.js",
+    "test:headed": "cypress run --headed --spec cypress/e2e/dummyjson-api.cy.js",
+    "test:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.18.0"
+  }
+}
